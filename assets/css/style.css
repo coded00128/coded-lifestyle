@@ -1,0 +1,129 @@
+         body {
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+            margin: 0%;
+        }
+        header {
+            
+            background-color:#8B0000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: rgb(136, 38, 38);
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: whitesmoke;
+            text-decoration: none;
+            margin: 10px
+        }
+        section {
+            background-color: white;
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+            padding: 3px;
+        
+        }
+        img {
+            width: 400px;
+            border-radius:10px ;
+        }
+        footer {
+            background-color: rgb(240, 26, 26);
+            color: antiquewhite;
+            text-align: center;
+            padding: 10px;
+        }
+        .section{
+            background-color: whitesmoke;
+        }
+        
+
+.services {
+    padding: 70px 8%;
+    text-align: center;
+    background-color: white;
+}
+
+.services h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: #111827;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #f5f7ff;
+    width: 280px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #2563eb;
+}
+
+.service-card p {
+    color: #555;
+    line-height: 1.6;
+}
+<!-- SERVICES SECTION -->
+
+<section class="services">
+
+    <h2>Our Services</h2>
+
+    <div class="service-container">
+
+        <div class="service-card">
+            <h3>🌐 Web Development</h3>
+
+            <p>
+                We create modern and responsive websites
+                for businesses and individuals.
+            </p>
+        </div>
+
+
+        <div class="service-card">
+            <h3>📱 App Development</h3>
+
+            <p>
+                We build useful and user-friendly applications
+                that make everyday tasks easier.
+            </p>
+        </div>
+
+
+        <div class="service-card">
+            <h3>🎨 UI/UX Design</h3>
+
+            <p>
+                We design beautiful and easy-to-use
+                interfaces for digital products.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
