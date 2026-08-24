@@ -1,71 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>our services</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-   
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Coded Lifestyle | About Us</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css"
+    >
+
 </head>
-    
 
 <body>
-    
-   <header class="header">
 
-    <div class="logo-container">
-        <img
-            src="assets/images/logo.jpegfile.jpeg"
-            alt="Coded Lifestyle Logo"
-            class="logo"
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top coded-navbar">
+
+    <div class="container">
+
+        <a
+            class="navbar-brand d-flex align-items-center gap-2"
+            href="index.html"
         >
 
-        <div class="brand">
-            <h1>CODED LIFESTYLE</h1>
-            <p>First make it work... you can make it beautiful later.</p>
+            <img
+                src="assets/images/logo.jpegfile.jpeg"
+                class="navbar-logo"
+                alt="Coded Lifestyle"
+            >
+
+            <div>
+
+                <div class="brand-name">
+                    CODED <span>LIFESTYLE</span>
+                </div>
+
+                <small>Digital Solutions</small>
+
+            </div>
+
+        </a>
+
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+        >
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div
+            class="collapse navbar-collapse"
+            id="mainNavbar"
+        >
+
+            <ul class="navbar-nav ms-auto gap-lg-2">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">
+                        Services
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="about-us.html">
+                        About Us
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link contact-nav"
+                        href="contact-us.html"
+                    >
+                        Contact Us
+                    </a>
+                </li>
+
+            </ul>
+
         </div>
+
     </div>
 
-</header>
-    
-    <nav class="navbar">
-
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="about-us.html">About Us</a>
-    <a href="contact-us.html">Contact Us</a>
-
 </nav>
-    <section class="hero">
-        <div class="hero-content">
 
-    <h1>About Us</h1>
-     <h1 style="color: red;">CODED LIFESTYLE</h1>
-    <marquee>
-        <img src="assets/images/bio.jpeg file.jpeg" width="200" >
-    </marquee>
-    <br>
 
-    <p>I am a passionate web developer with experience in creating modern, responsive websites.</p>
-    <p>My goal is to help businesses establish a strong online presence and achieve their digital objectives.</p>
-    <p><u>Here are lists of what i do.</u>
-        
-    <br><br><b>I specialize in.....</b>
-<ol>    
-    <li>Web Development</li>
-    <li>Software Development</li>
-    <li>Programming Softwares</li>
-    <li>Tutoring passive individuals</li>
-    <li><small>Coding
-    <li>Python</small></li>
-    <li>Programming</li>
-    and lots more...<br><br>Our Vision<br>our vision is to provide with ease advancement to many businesses centers and individuals.<br><br>Why Chooose Us?<br>✅Professional<br>✅Reliable<br>✅Creative<br>✅Affordable</p>
+<!-- HERO -->
+
+<section class="page-hero">
+
+    <div class="container text-center">
+
+        <p class="hero-label">
+            GET TO KNOW US
+        </p>
+
+        <h1>
+            About <span>Coded Lifestyle</span>
+        </h1>
+
+        <p>
+            Technology, creativity and practical digital solutions.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="section-padding about-company">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-5 text-center">
+
+                <div class="about-image-wrapper">
+
+                    <img
+                        src="assets/images/bio.jpeg file.jpeg"
+                        class="img-fluid"
+                        alt="Coded Lifestyle"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-7">
+
+                <p class="section-label">
+                    WHO WE ARE
+                </p>
+
+                <h2>
+                    Building digital solutions
+                    <span>with purpose.</span>
+                </h2>
+
+                <p class="lead">
+                    Coded Lifestyle is focused on creating
+                    modern digital solutions for businesses
+                    and individuals.
+                </p>
+
+                <p class="text-muted">
+                    We believe technology should solve real
+                    problems. Our goal is to help businesses
+                    establish a stronger online presence while
+                    creating useful digital products.
+                </p>
+
+                <p class="text-muted">
+                    From websites and applications to user
+                    interfaces, we combine development,
+                    creativity and continuous learning.
+                </p>
+
+            </div>
+
         </div>
-    </section> 
-   <footer>
-    <p>&copy; 2026 Coded lifestyle. </p>
+
+    </div>
+
+</section>
+
+
+<!-- VISION -->
+
+<section class="vision-section section-padding">
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <div class="col-lg-6">
+
+                <div class="info-card h-100">
+
+                    <div class="info-icon">
+                        <i class="bi bi-eye"></i>
+                    </div>
+
+                    <h3>
+                        Our Vision
+                    </h3>
+
+                    <p>
+                        To provide accessible digital solutions
+                        that help businesses and individuals
+                        advance, grow and operate more effectively.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="info-card h-100">
+
+                    <div class="info-icon">
+                        <i class="bi bi-bullseye"></i>
+                    </div>
+
+                    <h3>
+                        Our Mission
+                    </h3>
+
+                    <p>
+                        To create practical, reliable and
+                        user-friendly digital products that
+                        make technology easier to use.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- WHY CHOOSE US -->
+
+<section class="section-padding why-company">
+
+    <div class="container text-center">
+
+        <p class="section-label">
+            WHY US
+        </p>
+
+        <h2>
+            Why Choose <span>Coded Lifestyle?</span>
+        </h2>
+
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="why-card">
+
+                    <i class="bi bi-award"></i>
+
+                    <h4>
+                        Professional
+                    </h4>
+
+                    <p>
+                        We take every project seriously.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="why-card">
+
+                    <i class="bi bi-shield-check"></i>
+
+                    <h4>
+                        Reliable
+                    </h4>
+
+                    <p>
+                        We focus on dependable solutions.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="why-card">
+
+                    <i class="bi bi-lightbulb"></i>
+
+                    <h4>
+                        Creative
+                    </h4>
+
+                    <p>
+                        We approach problems creatively.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="why-card">
+
+                    <i class="bi bi-wallet2"></i>
+
+                    <h4>
+                        Affordable
+                    </h4>
+
+                    <p>
+                        We build practical solutions.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="site-footer">
+
+    <div class="container text-center">
+
+        <h4>
+            CODED <span>LIFESTYLE</span>
+        </h4>
+
+        <p>
+            Building ideas. Writing code. Creating experiences.
+        </p>
+
+        <p class="copyright">
+            © 2026 Coded Lifestyle. All rights reserved.
+        </p>
+
+    </div>
+
 </footer>
-    
-    
+
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+></script>
+
 </body>
 </html>
