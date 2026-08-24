@@ -1,75 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>our services</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Coded Lifestyle | Contact Us</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css"
+    >
+
 </head>
 
 <body>
-    <header class="header">
 
-    <div class="logo-container">
-        <img
-            src="assets/images/logo.jpegfile.jpeg"
-            alt="Coded Lifestyle Logo"
-            class="logo"
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top coded-navbar">
+
+    <div class="container">
+
+        <a
+            class="navbar-brand d-flex align-items-center gap-2"
+            href="index.html"
         >
 
-        <div class="brand">
-            <h1>CODED LIFESTYLE</h1>
-            <p>First make it work... you can make it beautiful later.</p>
+            <img
+                src="assets/images/logo.jpegfile.jpeg"
+                class="navbar-logo"
+                alt="Coded Lifestyle"
+            >
+
+            <div>
+
+                <div class="brand-name">
+                    CODED <span>LIFESTYLE</span>
+                </div>
+
+                <small>Digital Solutions</small>
+
+            </div>
+
+        </a>
+
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+        >
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div
+            class="collapse navbar-collapse"
+            id="mainNavbar"
+        >
+
+            <ul class="navbar-nav ms-auto gap-lg-2">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">
+                        Services
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">
+                        About Us
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a
+                        class="nav-link active contact-nav"
+                        href="contact-us.html"
+                    >
+                        Contact Us
+                    </a>
+                </li>
+
+            </ul>
+
         </div>
+
     </div>
 
-</header>
-    
-    <nav class="navbar">
-
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="about-us.html">About Us</a>
-    <a href="contact-us.html">Contact Us</a>
-
 </nav>
-      <section class="hero">
 
-        <div class="hero-content">
-    <h1>Contact Us</h1>
-    <p>We'd love to hear from you. </p>
-    
-      
 
-    <form action="https://formspree.io/f/mdenwokz" method="POST">
-    
-        <label>Name:</label>
-        <input type="text" name="name" placeholder="Enter your full name"><br><br>
-        <label>Email:</label>
-        <input type="email" name="email" placeholder="Enter your email"><br><br>
-        <label>Phone:</label>
-        <input type="tel" name="phone" placeholder="Enter your phone number"><br><br>
-        <label>Message:</label>
-        <textarea name="message" placeholder="Enter your message"></textarea><br><br>
- 
-        <button class="button" type="submit">Submit</button>
-    </form>
+<!-- PAGE HERO -->
+
+<section class="page-hero">
+
+    <div class="container text-center">
+
+        <p class="hero-label">
+            LET'S TALK
+        </p>
+
+        <h1>
+            Contact <span>Us</span>
+        </h1>
+
+        <p>
+            Have an idea? Let's build something useful together.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="section-padding contact-page">
+
+    <div class="container">
+
+        <div class="row g-5">
+
+
+            <!-- CONTACT INFORMATION -->
+
+            <div class="col-lg-5">
+
+                <p class="section-label">
+                    GET IN TOUCH
+                </p>
+
+                <h2>
+                    Let's start a
+                    <span>conversation.</span>
+                </h2>
+
+                <p class="text-muted">
+                    Whether you need a website, application,
+                    UI/UX design or simply want to discuss an idea,
+                    we'd love to hear from you.
+                </p>
+
+
+                <div class="contact-info">
+
+                    <a href="https://wa.me/2349161330967">
+
+                        <div class="contact-icon">
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+
+                        <div>
+                            <small>WhatsApp</small>
+                            <strong>Message Us</strong>
+                        </div>
+
+                    </a>
+
+
+                    <a href="mailto:iyiolapeter258@gmail.com">
+
+                        <div class="contact-icon">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+
+                        <div>
+                            <small>Email</small>
+                            <strong>Send an Email</strong>
+                        </div>
+
+                    </a>
+
+
+                    <a href="tel:+2349161330967">
+
+                        <div class="contact-icon">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+
+                        <div>
+                            <small>Phone</small>
+                            <strong>Call Us</strong>
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- FORM -->
+
+            <div class="col-lg-7">
+
+                <div class="contact-form-card">
+
+                    <form
+                        action="https://formspree.io/f/mdenwokz"
+                        method="POST"
+                    >
+
+                        <div class="row g-3">
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    Your Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    name="name"
+                                    class="form-control"
+                                    placeholder="Enter your full name"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="col-md-6">
+
+                                <label class="form-label">
+                                    Email Address
+                                </label>
+
+                                <input
+                                    type="email"
+                                    name="email"
+                                    class="form-control"
+                                    placeholder="Enter your email"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="col-12">
+
+                                <label class="form-label">
+                                    Phone Number
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    name="phone"
+                                    class="form-control"
+                                    placeholder="Enter your phone number"
+                                >
+
+                            </div>
+
+
+                            <div class="col-12">
+
+                                <label class="form-label">
+                                    Message
+                                </label>
+
+                                <textarea
+                                    name="message"
+                                    class="form-control"
+                                    rows="6"
+                                    placeholder="Tell us about your project..."
+                                    required
+                                ></textarea>
+
+                            </div>
+
+
+                            <div class="col-12">
+
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary btn-lg w-100"
+                                >
+
+                                    Send Message
+
+                                    <i class="bi bi-send ms-2"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
         </div>
-      </section>
-    <h1 style="border: 2px solid black;">
-    <a href="https://wa.me/2349161330967">message us on whatsaap</a>
-    <br>
-    <a href="mailto:iyiolapeter258@gmail.com">send us an email</a>
-    <br>
-    <a href="tel:+2349161330967">telephone us</a>
-    </h1>
+
+    </div>
+
+</section>
 
 
+<footer class="site-footer">
 
-    <footer>
-    <p>&copy; 2026 Coded lifestyle. </p>
+    <div class="container text-center">
+
+        <h4>
+            CODED <span>LIFESTYLE</span>
+        </h4>
+
+        <p>
+            Building ideas. Writing code. Creating experiences.
+        </p>
+
+        <p class="copyright">
+            © 2026 Coded Lifestyle. All rights reserved.
+        </p>
+
+    </div>
+
 </footer>
-    </section>
-    
+
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+></script>
+
 </body>
 </html>
